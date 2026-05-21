@@ -1,8 +1,21 @@
 # nbed-ssro
 
+Dataset for paper:
+**"Extraction of a structural short-range order descriptor from nanobeam electron diffraction patterns using a transfer learning approach"** *(under review)*
+
 ## Dataset
 
-The dataset used in this project is hosted publicly on Hugging Face: [https://huggingface.co/datasets/YOUR-ORG/nbed-ssro-dataset](https://huggingface.co/datasets/NMMLab/nbed-ssro-dataset)
+The dataset for this project is publicly available on Hugging Face.
 
-Model checkpoint and atomistic models can be downloaded using this [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/jwu251_jh_edu/IQD8vN2-NqtlRam-eiZgcVh0ATuQHPqO1FcoVpVozsHjHvI?e=mVQYrb)
+### Preview in browser
+The easiest way to explore the dataset is through the interactive viewer:
 
+- [**Dataset viewer (recommended for browsing)**](https://huggingface.co/datasets/NMMLab/nbed-ssro-dataset-viewer)
+
+
+### Download raw files
+For users who want the complete downloadable dataset, including arrays, metadata tables, split definitions, and LAMMPS structure files:
+
+- [**Raw dataset**](https://huggingface.co/datasets/NMMLab/nbed-ssro-dataset)
+
+Please see the Hugging Face dataset pages for full documentation, dataset structure, metadata descriptions, split definitions, and example loading instructions.
