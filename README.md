@@ -27,4 +27,4 @@ Model weights are available on:
 <https://huggingface.co/NMMLab/nbed-ssro-model>
 
 ## Examples
-For prediction examples, see `notebooks/prediction_examples.ipynb`
+For prediction examples, see `notebook/prediction_example.ipynb`
