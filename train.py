@@ -345,7 +345,7 @@ if __name__ == "__main__":
 
     train_dataset, val_dataset = (
         Subset(dataset, split_df.index[split_df["split"] == "train"]),
-        Subset(dataset, split_df.index[split_df["split"] == "val"]),
+        Subset(dataset, split_df.index[split_df["split"] == "validation"]),
     )
 
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")

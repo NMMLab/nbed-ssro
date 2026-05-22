@@ -25,3 +25,6 @@ Please see the Hugging Face dataset pages for full documentation, dataset struct
 Model weights are available on:
 
 <https://huggingface.co/NMMLab/nbed-ssro-model>
+
+## Examples
+For prediction examples, see `notebooks/prediction_examples.ipynb`

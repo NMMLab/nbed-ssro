@@ -124,15 +124,14 @@ def predict(model, X, device="cpu"):
     Returns
     -------
     numpy.ndarray
-        Predicted disorder parameter, shape (N,)
+        Predicted target (1-disorder parameter), shape (N,)
     """
     X = torch.as_tensor(X, dtype=torch.float32).to(device)
 
     with torch.no_grad():
         target = model(X).detach().cpu().numpy().reshape(-1)
 
-    disorder_parameter = 1.0 - target
-    return disorder_parameter
+    return target
 
 
 if __name__ == "__main__":
