@@ -1,7 +1,11 @@
 # nbed-ssro
 
 Repository for paper:
-**"Extraction of a structural short-range order descriptor from nanobeam electron diffraction patterns using a transfer learning approach"** *(under review)*
+
+> J. Wu and T. J. Rupert,  
+> "Extraction of a structural short-range order descriptor from nanobeam electron diffraction patterns using a transfer learning approach,"  
+> *Computational Materials Science* 272 (2026) 114902.  
+> https://doi.org/10.1016/j.commatsci.2026.114902
 
 ## Dataset
 
@@ -28,3 +32,21 @@ Model weights are available on:
 
 ## Examples
 For prediction examples, see `notebook/prediction_example.ipynb`
+
+## Citation
+
+If you use this repository, dataset, or model weights, please cite:
+
+```bibtex
+@article{wuExtractionStructuralShortrange2026,
+  title = {Extraction of a Structural Short-Range Order Descriptor from Nanobeam Electron Diffraction Patterns Using a Transfer Learning Approach},
+  author = {Wu, Junjie and J.Rupert, Timothy},
+  year = 2026,
+  month = jul,
+  journal = {Computational Materials Science},
+  volume = {272},
+  pages = {114902},
+  doi = {10.1016/j.commatsci.2026.114902},
+  keywords = {Atomistic modeling,Machine learning,Short-range order}
+}
+
